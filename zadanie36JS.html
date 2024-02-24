@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1 style="color:green">MENU</h1><br>
+<h2 style="color:red">1-czerowony</h2>
+<h2 style="color:blue">2-niebieski</h2>
+<input type="button" name="nazwisko_ucznia" value="Oblicz" onclick="fun_jur()" />
+<script>
+function fun_jur() {
+var x_jur = prompt("Podaj kolor", "");
+if(x_jur == 1 || x_jur.toLowerCase() == "czerwony") {
+document.write("wczytałeś kolor czerwony".fontsize(7).fontcolor("red")); }
+else if(x_jur == 2 || x_jur.toLowerCase() == "niebieski") {
+document.write('wczytałeś kolor niebieksi'.fontsize(1).fontcolor("blue"));
+}
+}
+</script>
+</body>
+</html>

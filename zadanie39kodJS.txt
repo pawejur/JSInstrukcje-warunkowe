@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+var liczba = {
+rok_jur: 1995,
+podana_liczba: prompt("podaj liczbe",""),
+rok_javascript: function ()
+{
+if (this.rok_jur == this.podana_liczba){
+document.write("brawo znasz rok od kiedy działa Javascript".fontcolor("blue").fontsize(4)+"<br>");
+}
+else{document.write("Źle musisz jeszcze poczytać".fontcolor("red").fontsize(7)+"<br>");
+}
+}
+}
+liczba.rok_javascript();
+</script>
+</head>
+<body>
+<br>
+</body>
+</html>
